@@ -1,0 +1,73 @@
+.learning-section {
+  text-align: center;
+  background: #1c024e;
+  padding: 1rem 1rem 2rem;
+}
+
+.learning-description {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.learning-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.learning-card {
+  background: white;
+  border: 3px solid #007bff;
+  border-radius: 20px;
+  padding: 1rem 1.5rem;
+  width: 250px;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.check-icon {
+  font-size: 1.5rem;
+  color: #007bff;
+  border: 2px solid #007bff;
+  padding: 0.5rem;
+  margin-right: 1rem;
+  border-radius: 5px;
+}
+
+.feature-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #1c024e;
+}
+
+.feature-text {
+  font-size: 0.8rem;
+  color: #555;
+}
+
+.get-started-btn {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 0.8rem 2rem;
+  font-size: 1rem;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-top: 2rem;
+}
+
+.get-started-btn:hover {
+  background: #0056b3;
+}
+
+@media (max-width: 425px) {
+  .learning-description {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+}
