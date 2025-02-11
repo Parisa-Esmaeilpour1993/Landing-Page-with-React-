@@ -29,7 +29,7 @@ export default function RepeatLearningOffer() {
         can practise your English for free.
       </p>
       <div className="learning-cards">
-        {features.map((feature) => (
+        {features?.map((feature) => (
           <div key={feature.id} className="learning-card">
             <span className="check-icon">✔</span>
             <div>

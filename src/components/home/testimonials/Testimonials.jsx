@@ -30,7 +30,7 @@ export default function Testimonials() {
 
   return (
     <section className="testimonials">
-      <h2 className="testimonials-title">What Our Users Say</h2>
+      <h2 className="testimonials-title">What Our Users Say?</h2>
       <Swiper
         effect="cards"
         grabCursor={true}
@@ -39,7 +39,7 @@ export default function Testimonials() {
         autoplay={false}
         className="testimonials-swiper"
       >
-        {testimonials.map((testimonial) => (
+        {testimonials?.map((testimonial) => (
           <SwiperSlide key={testimonial.id} className="testimonial-slide">
             <div className="testimonial-card">
               <h3 className="testimonial-name">{testimonial.name}</h3>

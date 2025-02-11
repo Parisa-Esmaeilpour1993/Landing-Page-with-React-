@@ -10,7 +10,7 @@ import TrustSection from "./home/trust-section/TrustSection";
 
 export default function Index() {
   return (
-    <div>
+    <>
       <Header />
       <Hero />
       <Features />
@@ -19,6 +19,6 @@ export default function Index() {
       <RepeatLearningOffer />
       <Testimonials />
       <Footer />
-    </div>
+    </>
   );
 }
