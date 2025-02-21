@@ -6,7 +6,7 @@ export default function HeaderBrand() {
     <div className="logo-section">
       <img src={brandImage} alt="" className="logo" />
       <span className="divider"></span>
-      <div className="logo-text">English</div>
+      <div className="logo-text">LearnEnglish</div>
     </div>
   );
 }
